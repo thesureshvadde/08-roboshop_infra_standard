@@ -6,6 +6,8 @@ pipeline {
         stage('INIT') {
             steps {
                 sh '''
+                    ls -ltr
+                    pwd
                     terraform init
                 '''
             }
