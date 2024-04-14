@@ -10,11 +10,11 @@ variable "common_tags" {
   default = {
     Project = "roboshop"
     Component = "Redis"
-    Environment = "DEV"
+    Environment = "dev"
     Terraform = "true"
   }
 }
 
 variable "zone_name" {
-  default = "joindevops.online"
+  default = "sureshvadde.online"
 }

@@ -86,7 +86,7 @@ resource "aws_lb_listener_rule" "catalogue" {
 
   condition {
     host_header {
-      values = ["catalogue.app.joindevops.online"]
+      values = ["catalogue.app.sureshvadde.online"]
     }
   }
 }
